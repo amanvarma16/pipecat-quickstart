@@ -1,6 +1,6 @@
-# Pipecat Quickstart
+# Plant Chat
 
-Run your first Pipecat bot in under 5 minutes. This example creates a voice AI bot that you can talk to in your browser.
+A voice AI plant companion that monitors environmental conditions and provides intelligent alerts. This bot uses Pipecat to create a conversational interface for your plants.
 
 ## Prerequisites
 
@@ -29,8 +29,8 @@ Have your API keys ready. We'll add them to your `.env` shortly.
 1. Clone this repository
 
    ```bash
-   git clone https://github.com/pipecat-ai/pipecat-quickstart.git
-   cd pipecat-quickstart
+   git clone https://github.com/amanvarma16/plant-chat.git
+   cd plant-chat
    ```
 
 2. Configure environment variables

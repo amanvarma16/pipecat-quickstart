@@ -18,14 +18,14 @@ class AlertManager:
     def __init__(
         self,
         *,
-        humidity_low_pct: float = 35.0,
+        humidity_low_pct: float = 50.0,
         temp_hot_c: float = 30.0,
         vpd_high_kpa: float = 1.8,
-        co2_stale_ppm: float = 400.0,
+        co2_stale_ppm: float = 900.0,
         # ROC thresholds (per minute)
         co2_spike_ppm_per_min: float = 150.0,
-        humidity_drop_pct_per_min: float = 4.0,
-        temp_rise_c_per_min: float = 2.0,
+        humidity_drop_pct_per_min: float = 2.0,
+        temp_rise_c_per_min: float = 1.0,
         # cooldowns
         cooldown_seconds: int = 45,
     ) -> None:
